@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+
+    & .container-title {
+        margin: 2rem 0;
+    }
+}
+
+.card-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    margin-bottom: 1rem;
+    min-height: 310px;
+}

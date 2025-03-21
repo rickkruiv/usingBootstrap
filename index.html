@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Henrique Ferreira Polizer
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/hfpolizer/"
+                                    target="_blank">Linkedin</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/rickkruiv" target="_blank">GitHub</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://wa.me/44997229355" target="_blank">WhatsApp</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Henrique Ferreira Polizer</h1>
+            <p class="lead">
+                Sou um desenvolvedor apaixonado por tecnologia e focado em criar soluções inovadoras e eficazes para
+                atender às necessidades de negócios. Com sólida experiência no desenvolvimento de sistemas e aplicação
+                de boas práticas de codificação, meu objetivo é transformar ideias em soluções práticas e funcionais.
+                Trabalho com uma abordagem orientada a resultados, buscando sempre a eficiência, qualidade e desempenho
+                em cada projeto. Seja para otimizar processos, desenvolver plataformas ou integrar sistemas, estou
+                pronto para criar soluções sob medida que atendam às suas necessidades e agreguem valor à sua empresa.
+                Se você ou sua empresa precisam de soluções tecnológicas confiáveis, escaláveis e de fácil manutenção,
+                estou à disposição para fazer isso acontecer.
+            </p>
+        </div>
+    </header>
+
+    <div class="text-center py-5" id="about">
+        <div class="container">
+            <h2 class="container-title">Sobre</h2>
+            <p>
+                Sou um desenvolvedor apaixonado por tecnologia e focado em criar soluções inovadoras e eficazes para
+                atender às necessidades de negócios. Com sólida experiência no desenvolvimento de sistemas e aplicação
+                de boas práticas de codificação, meu objetivo é transformar ideias em soluções práticas e funcionais.
+                Trabalho com uma abordagem orientada a resultados, buscando sempre a eficiência, qualidade e desempenho
+                em cada projeto. Seja para otimizar processos, desenvolver plataformas ou integrar sistemas, estou
+                pronto para criar soluções sob medida que atendam às suas necessidades e agreguem valor à sua empresa.
+                Se você ou sua empresa precisam de soluções tecnológicas confiáveis, escaláveis e de fácil manutenção,
+                estou à disposição para fazer isso acontecer.
+            </p>
+        </div>
+    </div>
+
+    <section class="container my-4" id="services">
+        <h2 class="container-title">Serviços</h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="card p-4 card-container">
+                    <h3>Aplicação Web </h3>
+                    <p>
+                        Desenvolvo aplicações web modernas, responsivas e de alto desempenho. Utilizo tecnologias
+                        robustas para criar sistemas eficientes, seguros e escaláveis, garantindo a melhor experiência
+                        para os usuários.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-4 card-container">
+                    <h3>Aplicação Desktop </h3>
+                    <p>
+                        Crio softwares para desktop personalizados, focados em performance e usabilidade. Integro
+                        sistemas, automatizo processos e desenvolvo soluções seguras para otimizar suas operações.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-4 card-container">
+                    <h3>Manutenção</h3>
+                    <p>
+                        Garanto que seu site ou sistema esteja sempre atualizado, seguro e funcionando sem problemas.
+                        Realizo otimizações, correções de falhas e melhorias contínuas para manter sua aplicação no
+                        melhor estado.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-4 card-container">
+                    <h3>Aplicação Empresarial </h3>
+                    <p>
+                        Desenvolvo sistemas empresariais robustos e escaláveis, alinhados às necessidades do seu
+                        negócio. Soluções completas para gestão, automação e integração de processos, sempre com foco em
+                        segurança e eficiência.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+            <h2 class="container-title">Passos de desenvolvimento</h2>
+            <div class="accordion-item text-start">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>Planejamento (Análise de Requisitos)</strong>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        O primeiro passo é entender o que o cliente ou usuário final precisa. Isso envolve reuniões,
+                        entrevistas ou pesquisa para entender o problema que o sistema deve resolver. No planejamento,
+                        definimos os requisitos do software: o que ele deve fazer, como ele deve se comportar e quais
+                        são as restrições que precisam ser atendidas. Basicamente, é aqui que o “caderno de
+                        especificações” é criado.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item text-start>
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>Desenho (Arquitetura e Design)</strong>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Depois de entender os requisitos, é hora de planejar como o sistema vai funcionar na prática. O
+                        design envolve a criação da arquitetura do sistema, o layout da interface (no caso de sites e
+                        aplicativos) e o detalhamento das funcionalidades que o software deve ter. É como criar o
+                        esqueleto do sistema, definindo como ele será estruturado, suas interações e como o usuário irá
+                        navegar nele.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item text-start>
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>Desenvolvimento (Codificação)</strong>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Com o planejamento e o design prontos, começamos a codificar o sistema. Essa etapa envolve
+                        transformar as ideias, requisitos e designs em código de verdade, ou seja, escrever os programas
+                        que vão executar as funções planejadas. Aqui, os desenvolvedores escrevem as linhas de código de
+                        acordo com a linguagem e as tecnologias escolhidas, como Java, Python, JavaScript, entre outros.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item text-start>
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <strong>Testes (Quality Assurance)</strong>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Antes de entregar o sistema, é fundamental testar tudo. Isso garante que o software está
+                        funcionando corretamente e sem bugs. Durante essa fase, diversos testes são realizados, como
+                        testes unitários (para checar partes do código), testes de integração (para garantir que as
+                        partes do sistema funcionam juntas) e testes de usabilidade (para garantir que a interface seja
+                        amigável e fácil de usar). O objetivo é encontrar e corrigir qualquer erro antes do lançamento.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item text-start>
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <strong>Manutenção e Suporte</strong>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Após o software ser lançado, ele não está acabado. O processo de manutenção envolve corrigir
+                        qualquer problema que surja depois do uso real, adicionar novos recursos ou até melhorar o
+                        desempenho do sistema. A manutenção pode ser contínua, já que as necessidades dos usuários podem
+                        mudar e as tecnologias também evoluem. Aqui, a equipe monitora o software, responde ao feedback
+                        dos usuários e faz ajustes conforme necessário.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 <span style="color: #0d6efd;">Henrique Ferreira Polizer</span>. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
