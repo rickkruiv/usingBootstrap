@@ -1,3 +1,10 @@
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    border: 3px solid #ffffff;
+    margin-bottom: 2rem;
+}
+
 .container {
     text-align: center;
 
@@ -15,4 +22,21 @@
     
     margin-bottom: 1rem;
     min-height: 310px;
+}
+
+.pagamento {
+    border-radius: 1rem;
+    padding: .1rem .8rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.avista {
+    background-color: #0d6efd;
+}
+
+.parcelado {
+    background-color: #00db6a;
 }
